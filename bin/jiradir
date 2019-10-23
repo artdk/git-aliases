@@ -1,5 +1,0 @@
-#!/bin/bash
-# makes a folder for a jira code
-mkdir ~/Desktop/JIRAS/$1;
-
-mkdir ~/Desktop/JIRAS/$1/screenshots;

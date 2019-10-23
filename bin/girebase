@@ -1,4 +1,0 @@
-#!/bin/bash
-# does an interactive rebase for the last $1 commits
-
-git rebase -i HEAD~$1

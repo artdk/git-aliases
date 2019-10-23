@@ -1,0 +1,58 @@
+###GIT ALIASES###
+
+#Pulling and pushing
+alias gpull="git pull"
+alias gpush="git push"
+alias gpushf="git push --force-with-lease"
+alias gcheck="git checkout"
+alias gf="git fetch"
+alias gb="git branch"
+alias gbd="git branch -D"
+alias gdev="git checkout develop; git pull -r"
+
+#Commits
+alias ga="git add"
+alias gau="git add -u"
+alias ga.="git add ."
+alias ga.cm="git add .; git commit -m"
+alias gcm="git commit -m"
+alias gcam="git commit --amend"
+alias gshow="git show"
+
+#Change status
+alias gs="git status"
+alias gl="git log"
+alias gl1="git log --oneline"
+alias gd="git diff"
+
+#Merge
+alias gm="git merge"
+alias gma="git merge --abort"
+alias gmc="git merge --continue"
+
+#Rebase
+alias grbs="git rebase"
+alias grbsc="git rebase --continue"
+alias grbss="git rebase --skip"
+alias grbsa="git rebase --abort"
+alias grbsi="git rebase -i"
+alias grbsih="git rebase -i HEAD~"
+
+#Cherry-pick
+alias gcp="git cherry-pick"
+alias gcpc="git cherry-pick --continue"
+alias gcps="git cherry-pick --skip"
+alias gcpa="git cherry-pick --abort"
+
+#Stash
+alias gstsh="git stash"
+alias gpop="git stash pop"
+alias gslst="git stash list"
+
+#Reset
+alias grst="git reset"
+alias grsts="git reset --soft"
+alias grstsh="git reset --soft HEAD"
+alias grsth="git reset --hard"
+alias grsthh="git reset --hard HEAD"
+alias grst1="git reset HEAD~1"
