@@ -1,3 +1,7 @@
+#!/bin/bash
+
+ALIAS_DIR=$( dirname $0 )
+
 ###GIT ALIASES###
 
 #Pulling and pushing
@@ -56,3 +60,5 @@ alias grstsh="git reset --soft HEAD"
 alias grsth="git reset --hard"
 alias grsthh="git reset --hard HEAD"
 alias grst1="git reset HEAD~1"
+
+source $ALIAS_DIR/help.alias

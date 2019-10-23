@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ALIAS_DIR=$( dirname $0 )
+
+#Help
+alias gitaliases="cat $ALIAS_DIR/git.alias"
