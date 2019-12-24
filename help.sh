@@ -4,6 +4,11 @@ ALIAS_DIR=$( dirname $0 )
 ALIASES=('branch' 'cherrypick' 'commit' 'merge' 'pull' 'push' 'rebase' 'reset' 'stash' 'status')
 if [ -z $1 ]
 then
+echo "====== ART'S GIT ALIASES ======"
+echo "Type 'gitaliases {operation}' to see the aliases for a given operation"
+echo "    eg. 'gitaliases commit'"
+echo ''
+echo ''
 for ALIAS in ${ALIASES[@]}
 do
 cat $ALIAS_DIR/$ALIAS.alias
