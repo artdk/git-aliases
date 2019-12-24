@@ -1,0 +1,6 @@
+### CHERRY-PICK ###
+
+alias gcp="git cherry-pick"
+alias gcpc="git cherry-pick --continue"
+alias gcps="git cherry-pick --skip"
+alias gcpa="git cherry-pick --abort"

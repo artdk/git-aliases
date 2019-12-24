@@ -1,0 +1,8 @@
+### REBASE ###
+
+alias grbs="git rebase"
+alias grbsc="git rebase --continue"
+alias grbss="git rebase --skip"
+alias grbsa="git rebase --abort"
+alias grbsi="git rebase -i"
+alias grbsih="git rebase -i HEAD~"

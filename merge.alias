@@ -1,0 +1,5 @@
+### MERGE ###
+
+alias gm="git merge"
+alias gma="git merge --abort"
+alias gmc="git merge --continue"
