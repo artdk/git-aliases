@@ -1,0 +1,9 @@
+### COMMIT ###
+
+alias ga="git add"
+alias gau="git add -u"
+alias ga.="git add ."
+alias ga.cm="git add .; git commit -m"
+alias gcm="git commit -m"
+alias gcam="git commit --amend"
+alias gcq="git add .; git commit -m 'squash me'"

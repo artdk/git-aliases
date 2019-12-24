@@ -1,0 +1,6 @@
+### BRANCH ###
+
+alias gcheck="git checkout"
+alias gc-="git checkout -"
+alias gb="git branch"
+alias gbd="git branch -D"

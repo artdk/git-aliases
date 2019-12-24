@@ -1,0 +1,8 @@
+### RESET ###
+
+alias grst="git reset"
+alias grsts="git reset --soft"
+alias grstsh="git reset --soft HEAD"
+alias grsth="git reset --hard"
+alias grsthh="git reset --hard HEAD"
+alias grst1="git reset HEAD~1"

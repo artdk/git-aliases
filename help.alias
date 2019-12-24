@@ -3,4 +3,4 @@
 ALIAS_DIR=$( dirname $0 )
 
 #Help
-alias gitaliases="cat $ALIAS_DIR/git.alias"
+alias gitaliases="bash $ALIAS_DIR/help.sh"

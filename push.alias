@@ -1,0 +1,4 @@
+### PUSH ###
+
+alias gpush="git push"
+alias gpushf="git push --force-with-lease"

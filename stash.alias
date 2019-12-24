@@ -1,0 +1,5 @@
+### STASH ###
+
+alias gstsh="git stash"
+alias gpop="git stash pop"
+alias gslst="git stash list"
