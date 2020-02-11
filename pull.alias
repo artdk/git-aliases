@@ -1,5 +1,6 @@
 ### PULL ###
 
 alias gpull="git pull"
+alias gpulr="git pull -r"
 alias gf="git fetch"
 alias gdev="git checkout develop; git pull -r"

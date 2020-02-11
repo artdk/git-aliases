@@ -1,6 +1,8 @@
 ### BRANCH ###
 
 alias gcheck="git checkout"
+alias gco="git checkout"
+alias gnew="git checkout -b"
 alias gc-="git checkout -"
 alias gb="git branch"
 alias gbd="git branch -D"
