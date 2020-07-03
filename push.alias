@@ -2,3 +2,5 @@
 
 alias gpush="git push"
 alias gpushf="git push --force-with-lease"
+alias gpushup="git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
+

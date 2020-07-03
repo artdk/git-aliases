@@ -10,7 +10,8 @@ source $ALIAS_DIR/pull.alias
 source $ALIAS_DIR/push.alias
 source $ALIAS_DIR/rebase.alias
 source $ALIAS_DIR/reset.alias
-source $ALIAS_DIR/stash.alias 
+source $ALIAS_DIR/stash.alias
 source $ALIAS_DIR/status.alias
+source $ALIAS_DIR/submodule.alias
 
 source $ALIAS_DIR/help.alias

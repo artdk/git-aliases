@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ALIAS_DIR=$( dirname $0 )
-ALIASES=('branch' 'cherrypick' 'commit' 'merge' 'pull' 'push' 'rebase' 'reset' 'stash' 'status')
+ALIASES=('branch' 'cherrypick' 'commit' 'merge' 'pull' 'push' 'rebase' 'reset' 'stash' 'status' 'submodule')
 if [ -z $1 ]
 then
 echo "====== ART'S GIT ALIASES ======"
